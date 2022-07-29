@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+   
+/* #######HEADER########## */
+    .header{
+        width: 100%;
+        height: 400px;
+        background-image: url(images/background.jpg);
+        background-size: cover;
+        background-position: 15px;
+    }
+
+
+    header h1 {  
+        position: absolute;
+        top: 0;
+        right: 30%;
+        left: 40%;        
+         color: #fff; 
+    }
+    .parag {  
+        position: relative;
+        top:70px;
+        text-align: center;
+        color: #fff; 
+   }
+
+
+.search{
+    width: 60%;
+    background-color: #fff;
+    opacity: 0.7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    position: relative;
+    top: 300px;
+    
+}
+.search select {
+    background-color: #fff;
+    margin-left: 6px;
+}
+.input-container{
+    background-color: #fff;
+}
+.search .btn {
+    background-color:rgba(80, 241, 67, 0.8);
+   
+}
+/* #######CONTENT########## */
+.content{
+    margin: auto;
+    width: 60%;
+    padding-top: 20px;
+    
+}
+ .text{
+    
+    display: flex;
+    justify-content: space-between;
+   
+}
+.cards{
+    margin-right: 200px;
+
+}
+.card1{
+    display: flex;
+    justify-content: space-between;
+}
+.desc{
+    display: flex;
+    flex-direction: column;
+}
+
+/* #######FOOTER########## */
+footer{
+    padding-top: 20px;
+    height: 200px;
+    margin: auto;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    
+}
+.footer img{
+   
+    margin-right: 50px;
+}
+footer span{
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+
+}
+
+
+@media (min-widht:950px) and (max-widht) {
+    
+}
+@media(max-width:950px){
+    .header {
+        height: 60vh;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        
+    }
+    header h1 {  
+        text-align: center;
+        width: fit-content;
+        left: 100px;
+        top: 20px;
+         color: #fff; 
+         font-size: 40px;
+    }
+    .parag {  
+        display: none;
+        position: relative;
+        top:70px;
+        text-align: center;
+        color: #fff; 
+   }
+    .search{
+        background-color: #fff;
+        opacity: 0.7;
+       position: absolute;
+       top: 200px;
+       display: flex;
+       flex-direction: column;
+       width: 100%;
+    }
+    .search select {
+     display: block;
+     width: 100%;
+     margin: 6px;
+    }
+    .input{
+       width: 100%;
+        
+    }
+    input{
+        width: 95%;
+    }
+    .search .btn {
+    background-color:rgba(80, 241, 67, 0.8);
+     width: 100%;
+     margin: 6px;
+    }
+    .content{
+        margin: 0;
+    }
+    .content h3,span, p{
+        display: none;
+    }
+    .cards{
+        
+    margin:auto;
+    }
+    .text{
+    
+        display: flex;
+        justify-content: space-between;
+       
+    }
+    .card1 button{
+        width: 120px;
+        margin-top: 40px;
+        
+        font-size: 10px;
+     
+    }
+}
